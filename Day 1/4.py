@@ -22,33 +22,6 @@ k = int(input("Enter the number of unique characters: "))
 print("The longest substring with exactly", k, "unique characters is of length", substring(s, k))
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ''' 
 def substring(s, k):
     n = len(s)

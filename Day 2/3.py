@@ -1,0 +1,14 @@
+"""
+Return the nth Fibonacci number.
+Answer: Use recursion
+Test: n=10 → 55
+"""
+
+def fibonacci(n):
+    if n <= 1:
+        return n
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+
+n = int(input("Enter a number: "))
+print(fibonacci(n))
